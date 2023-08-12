@@ -12,7 +12,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.country-div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+  border: #282c34 5px solid;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+  background-color: darkolivegreen;
+}
+.country-box{
+  background-color: ghostwhite;
+  border: #282c34 5px solid;
+  border-radius: 25px;
+}
+.country-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
